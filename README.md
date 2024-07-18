@@ -1,5 +1,5 @@
 # TURISMO PUQUIO ✈️🏔️
-## Nombre de la empresa: Viajes Aventura S.A.
+
 Una aplicación móvil dedicada al turismo en Puquio podría ofrecer una variedad de soluciones y beneficios para los visitantes interesados en explorar esta región de Perú. Aquí te presento algunas de las funcionalidades y soluciones que podría proporcionar:
 - *Información Detallada sobre Atracciones Turísticas*: La app podría incluir una guía completa de los principales lugares de interés en Puquio, como lagunas, miradores, sitios históricos y festividades locales. Esto ayudaría a los turistas a planificar mejor sus visitas y explorar todo lo que Puquio tiene para ofrecer.
 - *Rutas y Mapas Interactivos*: Ofrecer mapas interactivos con rutas recomendadas para senderismo, ciclismo u otras actividades al aire libre. Incluir información detallada sobre la dificultad de las rutas, la duración estimada y los puntos de interés a lo largo del camino.
@@ -32,9 +32,8 @@ A través de nuestras operaciones, buscamos minimizar el impacto ambiental negat
 Esta empresa no solo se enfoca en ofrecer experiencias únicas y emocionantes, sino que también se compromete a ser un agente positivo en la promoción de la sostenibilidad y el respeto por las culturas locales, asegurando que cada viaje sea una contribución positiva tanto para los viajeros como para las comunidades que visitamos.
 
 ## Colaboradores
-> Nadine Atoccsa Ortiz
-> Yerald Avalos Poma
-> Maria Calle Limascca
-> Moises Peñafiel Tello
-> Jory Rodriguez Camargo
-
+- Nadine Atoccsa Ortiz
+- Yerald Avalos Poma
+- Maria Calle Limascca
+- Moises Peñafiel Tello
+- Jory Rodriguez Camargo
