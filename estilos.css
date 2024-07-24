@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagen {
+    position: absolute;
+    top:0;
+    width: 98.9%;
+    height: 145%;
+    background: rgba(2, 78, 74, 0.6);
+    transition: all 500ms ease-out;
+    margin-top: 4.9%;
+}
+.imagen2 {
+    position: absolute;
+    top:0;
+    width: 98.9%;
+    height: 145%;
+    background: rgba(2, 78, 74, 0.6);
+    transition: all 500ms ease-out;
+    margin-top: 107.9%;
+}
