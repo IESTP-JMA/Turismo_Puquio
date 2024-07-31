@@ -32,8 +32,12 @@ A través de nuestras operaciones, buscamos minimizar el impacto ambiental negat
 Esta empresa no solo se enfoca en ofrecer experiencias únicas y emocionantes, sino que también se compromete a ser un agente positivo en la promoción de la sostenibilidad y el respeto por las culturas locales, asegurando que cada viaje sea una contribución positiva tanto para los viajeros como para las comunidades que visitamos.
 
 ## Colaboradores
-- Nadine Atoccsa Ortiz
-- Yerald Avalos Poma
-- Maria Calle Limascca
-- Moises Peñafiel Tello
-- Jory Rodriguez Camargo
+
+| Nombres y Apellidos   | Usuarios de Git Hub                  | 
+|-----------------------|--------------------------------------|
+| Nadine Atoccsa Ortiz  | https://github.com/NadineAtoccsaOrtiz| 
+| Yerald Avalos Poma    | https://github.com/Y3R41D            | 
+| Maria Calle Limascca  | https://github.com/callelimascca     |
+| Moises Peñafiel Tello | https://github.com/moisespenafiel10  |
+| Jory Rodriguez Camargo| https://github.com/joryrod           |
+ 
