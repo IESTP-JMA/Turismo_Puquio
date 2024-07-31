@@ -15,7 +15,7 @@
     margin-top: 4.9%;
 }
 #footer-image {
-    background: linear-gradient(rgba(41, 217, 213, 0.5),rgba(41, 217, 213, 0.5)), url("./img/tres.jpg");
+    background: linear-gradient(rgba(41, 217, 213, 0.5),rgba(41, 217, 213, 0.5)), url("./img/portada.jpg");
     object-fit: cover;
     background-size: cover;
     background-position: center;

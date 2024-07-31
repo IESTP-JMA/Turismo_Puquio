@@ -44,7 +44,7 @@
   </nav>  
   <main style="background: rgb(0, 0, 0); width: 100%;">
     <div class="jumbotron" style="background-color: rgb(0, 0, 0);">
-      <img class="card-img-top" style="position: relative; width: 100%; padding-top: 5%; padding-bottom: 5%;" src="./img/tres.jpg">
+      <img class="card-img-top" style="position: relative; width: 100%; padding-top: 5%; padding-bottom: 5%;" src="./img/portada.jpg">
       <div class="imagen">
       </div>
       </div>
@@ -53,27 +53,29 @@
         <h1 class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">En una aventura <br> inolvidable</h1>
         <p class="lead" style="color: white;" style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"></p>
         <div class="col-12" style="left: 80%;">
-        <button type="button" class="btn btn-outline-info">Reservar Ahora</button>
+        <button type="button" class="btn btn-outline-info rounded-pill">Reservar Ahora</button>
         </div>
       </div>
       <div class="container rounded-4" style="height: 20%;position: absolute; top: 110%; left: 50%; transform: translate(-50%, -50%); font-size: 20px; background: rgb(11, 11, 11);">
         <form class="row g-3" style="padding: 3%;" >
           <div class="col-3">
             <label for="inputEmail4" class="form-label" style="color: white;">¿A donde?</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <input type="email" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputEmail4">
           </div>
           <div class="col-3">
             <label for="inputPassword4" class="form-label"  style="color: white;">¿Cuando?</label>
-            <input type="password" class="form-control" id="inputPassword4">
+            <input type="password" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputPassword4">
           </div>
           <div class="col-3">
             <label for="inputAddress" class="form-label"  style="color: white;">¿Cuantos?</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <input type="text" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputAddress" placeholder="1234 Main St">
           </div>
           <div class="col-1"></div>
           <div class="col-2" >
-            <button type="button" class="btn btn-outline-info">Reservar Ahora</button>
+            <button type="button" class="btn btn-outline-info rounded-pill border border-info border-start-0 bg-black">Buscar ahora</button>
           </div>
+        </form>
+      </div>
         </form>
       </div>
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width: 40%;margin-left: 20%; padding-bottom: 5%; padding-top: 3%;display: flex;">
@@ -94,7 +96,7 @@
           <h1 style="color: white; font-family:'Lucida Sans', Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Aventurate con nosotros</h1>
           <p class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 80%;">Puquio,ciudad capital de la provincia Lucanas, ubicado a mas de 3000 m.s.n.m,<br> esta en una de las ondulaciones de terreno cercada distancia por una muralla <br>de cerros no muy elevados. De alli que su temperatura sea  frigida en los meses<br> de invierno.</p>
           <div class="col-12">
-            <button type="button" class="btn btn-outline-info">Leer mas</button>
+            <button type="button" class="btn btn-outline-info rounded-pill">Leer mas</button>
           </div>
         </div>
       </div>
@@ -170,24 +172,24 @@
       <h1  style="color: white; font-family:'Lucida Sans', Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 8%;margin-bottom: 3%;">Experiencia incontable</h1>
     </div>
     <div style="display: flex; margin-bottom: 3%;">
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 7.8%;">
+      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 7.8%;" onclick="location.href='./transportes.html'">
         <img src="./img/bus.svg" alt="" style="width: 35%;">
         <h1>Movilidad</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,!</p>
-      </button>
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;">
+    </button>    
+      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./aventura.html'" >
         <img src="./img/adventure.svg" style="width: 35%;" alt="">
         <h1>Aventuras</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
       </button>
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;">
+      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./restaurantes.html'">
         <img src="./img/food.svg" style="width: 35%;" alt="">
         <h1>Alimentos y bebidas</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
       </button>
     </div>
     <div style="display: flex; margin-bottom: 5%;">
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 7.8%;">
+      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 7.8%;" onclick="location.href='./hoteles.html'">
         <img src="./img/hotel.svg" style="width: 35%;" alt="">
         <h1>Hoteles</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
@@ -197,7 +199,7 @@
         <h1>Precios accesibles</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
       </button>
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;">
+      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./contactanos.html'">
         <img src="./img/service.svg" style="width: 35%;" alt="">
         <h1>Cotactanos</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta!</p>
@@ -206,7 +208,7 @@
   </main>
   <footer id="footer" style="background: rgb(0, 0, 0); width: 100%;">
     <div class="jumbotron" style="background-color: black;">
-        <img class="card-img-top" style="position: relative; width: 100%;padding-top: 5%; padding-bottom: 5%;" src="./img/tres.jpg"> 
+        <img class="card-img-top" style="position: relative; width: 100%;padding-top: 5%; padding-bottom: 5%;" src="./img/portada.jpg"> 
     </div>
     <div class="imagen2">
     </div>
@@ -214,52 +216,53 @@
       <h1 class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Exploremos la cultura</h1>
       <p class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: large;">Puquio lugar con cultura y lleno de fe, un buen dsetino para disfrutar y experimentar nuevas experiencias.</p>
       <div class="col-12">
-      <button type="button" class="btn btn-outline-info">Reservar Ahora</button>
+      <button type="button" class="btn btn-outline-info rounded-pill">Reservar Ahora</button>
       </div>
     </div>   
     <div class="" style="display: flex; margin-left: 20%;">
       <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Turismo Puquio</a>
-        <a>texto</a>
-        <a class="icon-link" href="#" style="display: flex;">
-            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/logo-de-facebook.png" style="width: 3%;">
+        <a class="nav-link active" aria-current="page" href="#" style="color: white;font-size: 30px;">Turismo Puquio</a>
+        <a style="color: black; font-size:xx-large;">texto</a>
+        <a class="icon-link" href="#" style="display: flex; ">
+            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/facebook.png" style="width: 3%;">
             <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/whatsapp.png" style="width: 3%;">
-            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/instagram.png" style="width: 3%;">
-            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/tik-tok.png" style=" width: 3%;">
+            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/logotipo-de-instagram.png" style="width: 3%;">
+            <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg><img src="./img/tik-tok2.png" style=" width: 3%;">
         </a>
       </nav>
     </div>
-    <div style="position: absolute; left: 60%; transform: translate(-50%, -50%); display: flex;">
-        <nav class="nav flex-column" style="color: azure;margin-left: 20px;">
-          <a class="nav-link active" aria-current="page" href="#">Enlaces rapidos</a>
-          <a class="nav-link" href="index.html">Inicio</a>
-          <a class="nav-link" href="#">Acerca de</a>
-          <a class="nav-link" href="#destino">Destino</a>
-          <a class="nav-link" href="#servicio">Servicios</a>
-          <a class="nav-link" href="#">Galeria</a>
-          <a class="nav-link" href="#blogs">Blogs</a>
+    <div style="position: absolute; left: 55%; transform: translate(-50%, -50%); display: flex;">
+      <nav class="nav flex-column" style="color: azure;margin-left: 20px;">
+        <a class="nav-link active" aria-current="page" href="#"style="color: azure;font-size: 30px;">Links</a>
+        <a class="nav-link" href="index.html "style="color: azure;">Inicio</a>
+        <a class="nav-link" href="#"style="color: azure;">Acerca de</a>
+        <a class="nav-link" href="#destino"style="color: azure;">Destino</a>
+        <a class="nav-link" href="#servicio"style="color: azure;">Servicios</a>
+        <a class="nav-link" href="#"style="color: azure;">Galeria</a>
+        <a class="nav-link" href="#blogs"style="color: azure;">Blogs</a>
+      </nav>
+      <nav class="nav flex-column" style="margin-left: 10%; font-size: 20px;color: azure;" >
+        <a class="nav-link active" aria-current="page" href="#" style="color: azure;font-size: 30px;">Ubicanos</a>
+        <a class="nav-link" href="#"style="color: azure;">
+          <img src="./img/mapa.png" alt="">Puquio, Lucanas - 05505</a>
+        <a class="nav-link" href="#"style="color: azure;">912-321-456</a>
+        <a class="nav-link" href="#"style="color: azure;">turismopuquio@gamil.com</a>
+        <a class="nav-link" href="#"style="color: azure;">7:00 am - 5:00 pm</a>
         </nav>
-        <nav class="nav flex-column" style="margin-left: 5%; font-size: 20px;color: azure;" >
-          <a class="nav-link active" aria-current="page" href="#">Ubicanos</a>
-          <a class="nav-link" href="#">Puquio, Lucanas - 05505</a>
-          <a class="nav-link" href="#">912-321-456</a>
-          <a class="nav-link" href="#">turismopuquio@gamil.com</a>
-          <a class="nav-link" href="#">7:00 am - 5:00 pm</a>
-          </nav>
 
-      <nav class="nav flex-column" style="margin-left: 5%; font-size: 20px;color: azure;" >
-        <a class="nav-link active" aria-current="page" href="#">Boletín</a>
-        <p>Suscribete para recibir las ultimas actualizaciones</p>
-        <div class="mb-3">
-          <input type="text" class="form-control bg-secondary border-5 border-info border-start-1 rounded-5" id="formGroupExampleInput" placeholder="Ingresa tu em@il">
-        </div>
-        <div class="mb-3">
-          <button type="button" class="btn btn-outline-info">Suscribete</button>
-        </div>
-        
-      </nav>   
+    <nav class="nav flex-column" style="margin-left: 10%; font-size: 20px;color: azure;" >
+      <a class="nav-link active" aria-current="page" href="#"style="color: azure; font-size: 30px;">Boletín</a>
+      <p style="color: azure;font-size: 10px;">Suscribete para recibir las ultimas actualizaciones</p>
+      <div class="mb-3">
+        <input type="text" class="form-control bg-secondary border-1 border-info  rounded-5 rounded-pill bg-black text-bg-light" id="formGroupExampleInput" placeholder="Ingresa tu em@il opacity-100%">
+      </div>
+      <div class="mb-3">
+        <button type="button" class="btn btn-outline-info rounded-pill">Suscribete</button>
+      </div>
+      
+    </nav>   
 
-    </div>    
+  </div>    
         
     </div>
 </footer>  
