@@ -8,74 +8,72 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
-<body class="container-fluid" style="background: black; width: 100%;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid text-bg-black">
-      <a class="navbar-brand" href="#footer">TURISMO PUQUIO</a>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="barra-navegacion">
+    <div class="container-fluid px-2 gap-lg-5 position-relative">
+      <a class="navbar-brand fs-3" href="./index.html" style="font-family: 'LEMONMILK';">TURISMO PUQUIO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse text-bg-black" id="navbarSupportedContent" >
+      <div class="collapse navbar-collapse rounded-bottom-1" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" aria-current="page" href="#">Acerca de</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#destino">Destino</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" aria-current="page" href="#destino">Destino</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#servicio">Servicios</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" aria-current="page" href="#servicio">Servicios</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" aria-current="page" href="#">Galeria</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#blogs">Blogs</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" aria-current="page" href="#blogs">Blogs</a>
           </li>
         </ul>
-        <div class="bg-subtle" style="left: 100%;">
-          <button type="button" class="btn btn-outline-info rounded-pill">Reservar Ahora</button>
+        <div class="bg-subtle">
+          <button type="button" class="btn btn-outline-primary rounded-pill">Reservar</button>
         </div>
       </div>
     </div>
-  </nav>  
-  <main style="background: rgb(0, 0, 0); width: 100%;">
-    <div class="jumbotron" style="background-color: rgb(0, 0, 0);">
-      <img class="card-img-top" style="position: relative; width: 100%; padding-top: 5%; padding-bottom: 5%;" src="./img/portada.jpg">
-      <div class="imagen">
-      </div>
-    </div>
-      <div class="container" style="position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%); font-size: 20px; ; text-align: center">  
-        <p class="lead" style="color: white;" style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Siguenos</p>
-        <h1 class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">En una aventura <br> inolvidable</h1>
-        <p class="lead" style="color: white;" style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"></p>
-        <div class="col-12" style="left: 80%;">
-        <button type="button" class="btn btn-outline-info rounded-pill">Reservar Ahora</button>
+  </nav>
+
+  <div id="portada-image">
+    <div class="w-100 position-absolute" style="bottom: 2rem; z-index: 50">
+      <form class="d-flex flex-column flex-md-row row-gap-4 p-3 rounded-4 align-items-center justify-content-evenly" style="background: rgba(0, 0, 0, 0.55); margin: 0px 20%;">
+        <div>
+          <label for="" class="form-label d-block text-nowrap text-md-center" style="color: white;">¿A donde?</label>
+          <select class="form-select" name="" id="" style="width: min-content; margin: auto;">
+            <option value="1" selected>Ciudad de Puquio</option>
+            <option value="2">Aguas Termales Geronta</option>
+            <option value="3">Laguna Ccoricocha</option>
+            <option value="4">Bosque de Eucaliptos</option>
+          </select>
         </div>
-      </div>
-      <div class="container rounded-4" style="height: 20%;position: absolute; top: 110%; left: 50%; transform: translate(-50%, -50%); font-size: 20px; background: rgb(11, 11, 11);">
-        <form class="row g-3" style="padding: 3%;" >
-          <div class="col-3">
-            <label for="inputEmail4" class="form-label" style="color: white;">¿A donde?</label>
-            <input type="email" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputEmail4">
-          </div>
-          <div class="col-3">
-            <label for="inputPassword4" class="form-label"  style="color: white;">¿Cuando?</label>
-            <input type="password" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputPassword4">
-          </div>
-          <div class="col-3">
-            <label for="inputAddress" class="form-label"  style="color: white;">¿Cuantos?</label>
-            <input type="text" class="form-control rounded-pill border border-info border-start-0 bg-black" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-1"></div>
-          <div class="col-2" >
-            <button type="button" class="btn btn-outline-info rounded-pill border border-info border-start-0 bg-black">Buscar ahora</button>
-          </div>
-        </form>
-      </div>
+        <div>
+          <label for="" class="form-label d-block  text-md-center"  style="color: white;">¿Cuando?</label>
+          <input type="date" id="when-date" class="form-control" style="width: min-content; margin: auto;">
+          <script>
+            const today = new Date();
+            const $date = document.getElementById('when-date');
+            const f_date = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}`
+            $date.setAttribute('min', f_date);
+            $date.setAttribute('value', f_date);
+          </script>
+        </div>
+        <div style="width: min-content;">
+          <button type="button" class="btn btn-lg  btn-outline-info text-nowrap">Buscar</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+      <main>
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width: 40%;margin-left: 20%; padding-bottom: 5%; padding-top: 3%;display: flex;">
         <div class="carousel-inner">
           <div class="carousel-item active ">
@@ -90,7 +88,7 @@
         </div>
       </div>
       <div>
-        <div class="container" style="position: absolute; top: 180%; left: 90%; transform: translate(-50%, -50%); ">
+        <div class="container">
           <h1 style="color: white; font-family:'Lucida Sans', Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Aventurate con nosotros</h1>
           <p class="display-3"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 80%;">Puquio,ciudad capital de la provincia Lucanas, ubicado a mas de 3000 m.s.n.m,<br> esta en una de las ondulaciones de terreno cercada distancia por una muralla <br>de cerros no muy elevados. De alli que su temperatura sea  frigida en los meses<br> de invierno.</p>
           <div class="col-12">
@@ -185,11 +183,11 @@
         <h1>Aventuras</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
       </button>
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./restaurantes.html'">
+      <!-- <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./restaurantes.html'">
         <img src="./img/food.svg" style="width: 35%;" alt="">
         <h1>Alimentos y bebidas</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
-      </button>
+      </button> -->
     </div>
     <div style="display: flex; margin-bottom: 5%;">
       <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 7.8%;" onclick="location.href='./hoteles.html'">
@@ -202,11 +200,11 @@
         <h1>Precios accesibles</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta,</p>
       </button>
-      <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./contactanos.html'">
+      <!-- <button type="button" class="btn btn-secondary rounded-4" style="width: 27%; margin-left: 2.2%;" onclick="location.href='./contactanos.html'">
         <img src="./img/service.svg" style="width: 35%;" alt="">
         <h1>Cotactanos</h1>
         <p class="text-secondary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit voluptatum deserunt quaerat est odio dignissimos in magnam esse vel soluta!</p>
-      </button>
+      </button> -->
     </div>
     <div style="padding-left: 40%;">
       <p id="blogs" class="display-3 text-info"  style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 18%;font-size: 110%;">Blogs y Publicaciones</p>
@@ -242,7 +240,7 @@
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           <div style="display: flex;">
             <img src="./img/hora.png" alt="" style="width: 7%; height: 7%; margin-top: 3.5%;"> <p style="margin-right: 27%; margin-top: 3%;">20 mayo, 2024</p>
-            <img src="./img/user.png" style="width: 7%;height: 7%;margin-top: 3.5%;" alt=""> <p style="margin-top: 3%; ">Juancito</p>
+            <!-- <img src="./img/user.png" style="width: 7%;height: 7%;margin-top: 3.5%;" alt=""> <p style="margin-top: 3%; ">Juancito</p> -->
           </div>
         </div>
     </div>
@@ -272,7 +270,7 @@
         </a>
       </nav>
     </div>
-    <div style="position: absolute; left: 55%; transform: translate(-50%, -50%); display: flex;">
+    <!-- <div style="position: absolute; left: 55%; transform: translate(-50%, -50%); display: flex;">
       <nav class="nav flex-column" style="color: azure;margin-left: 20px;">
         <a class="nav-link active" aria-current="page" href="#"style="color: azure;font-size: 30px;">Links</a>
         <a class="nav-link" href="index.html "style="color: azure;font-size: 20px;">Inicio</a>
@@ -302,7 +300,7 @@
       
     </nav>   
 
-    </div>    
+    </div>     -->
         
     </div>
 </footer>  

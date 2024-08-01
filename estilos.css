@@ -1,13 +1,20 @@
 :root {
     --primary-color: #29d9d5;
-  }
-*{
+}
+
+@font-face {
+    font-family: "LEMONMILK";
+    src: url('./LEMONMILK-Regular.min.otf');
+}
+
+* {
     padding: 0;
     margin: 0;
 }
+
 .imagen {
     position: absolute;
-    top:0;
+    top: 0;
     width: 98.9%;
     height: 149.4%;
     background: rgba(2, 78, 74, 0.6);
@@ -15,31 +22,61 @@
     margin-top: 4.9%;
 }
 
-#footer-image {
-    background: linear-gradient(rgba(41, 217, 213, 0.5),rgba(41, 217, 213, 0.5)), url("./img/portada.jpg");
+#portada-image {
+    height: 85vh;
+    background: linear-gradient(rgba(41, 217, 213, 15%),rgba(41, 217, 213, 10%)), url("./img/portada.jpg");
     object-fit: cover;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    
-    & h1 {
-        font-weight: 600;
-        text-align: center;
-        margin-bottom: 0.25rem;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.t5 {
+    height: 50%;
+    width: 50%;
+}
+
+#barra-navegacion {
+    background-color: rgba(0, 0, 0, 0.75);
+
+    #navbarSupportedContent {
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        top: 3.27rem;
+        right: 0px;
+        padding: 0px 3rem 0.5rem;
+
+    }
+}
+
+@media (min-width: 992px) {
+    #navbarSupportedContent {
+        position: initial !important;
+        background-color: initial !important;
     }
 
-    & p {
-        padding: 0px 5%;
-        text-align: center;
+    #portada-image {
+        height: 90vh !important;
+        animation: zoom-portada 60s linear infinite;
     }
 }
 .t5{
     height: 50%;
     width: 50%;
+    }
+.t5{
+    height: 50%;
+    width: 50%;
 }
+
+  
+@keyframes zoom-portada {
+    0%, 100% {
+        background-size: 100%;
+    }
+      50% {
+          background-size: 120%;
+      }
+    }
